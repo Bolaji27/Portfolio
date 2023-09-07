@@ -1,0 +1,438 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+   
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0 auto;
+    overflow-x: hidden;
+}
+
+.portfolio-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background: linear-gradient(#273453 , #1B1D21 );
+}
+.port-header {
+    
+    padding-top: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+
+   
+}
+.port-header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.port-header h3{
+    color: #fff;
+    margin-top: 15px;
+    margin-left: 13rem;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.port-header p{
+    color: #fff;
+    margin-left: 13rem;
+    margin-top: 1.5rem;
+    line-height: 1.4rem;
+    background: transparent;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;  
+    opacity: 0.5;
+    
+}
+.port-header nav ul {
+    display: inline-block;
+    list-style: none;
+    margin-top: 5rem;
+}
+.port-header  li {
+    margin-left: 13rem;
+margin-bottom: 1.5rem;
+}
+
+.port-header  li a:hover, .port-header li a.active{
+    opacity: 1;
+}
+.port-header nav li a {
+    color: #fff;
+   text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.3s ;
+    opacity: 0.5;
+}
+
+.header-footer {
+    display: flex;
+    align-items: center;
+    margin-left: 13rem;
+   
+}
+.header-footer i {
+    color: #fff;
+    margin-top: 12rem;
+    margin-right: 20px;
+    font-size: 25px;
+   
+}
+/******************** Portfolio content ********************/
+.portfolio-content{
+    height: 100vh;
+    flex-shrink: none;
+    padding-top: 6rem;
+}
+.header-bio {
+    color: #fff;
+    max-width: 40rem;
+    margin-bottom: 6rem;
+    opacity: 0.6;
+    background: transparent(rgba(255, 255, 2550, 0.5));
+    line-height: 1.5rem;
+}
+/******************** Experience ********************/
+.experience{
+    display: flex;
+    transition: .3s;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+.experience:hover{
+    
+    background:linear-gradient(rgba(255, 255, 255, 0.08 ), rgba(255, 255, 255, 0.07));
+    border: 0.1px  rgba(255, 255, 255, 0.6);
+   
+    max-width:max-content;
+    opacity: 1; 
+}
+.date{
+    margin-right: 1rem;
+    color: #fff;
+    opacity: 0.5;
+}
+.body-content{
+    flex-grow: 2;
+    max-width: 30rem;
+    color: #fff;
+}
+.body-content p {
+    margin-top: 1rem;
+    opacity: 0.8;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body-content h5 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: .7rem;
+}
+
+.experience:hover .body-content h3, .experience:hover .skills-gain i {
+    color: #B5E3BC ;
+}
+
+
+.skills-gain {
+    font-size: 25px;
+    margin-top: 10px;
+}
+.skills-gain i{
+    margin-right: 30px;
+    
+}
+
+
+/***************** uni-experience****************/
+
+.uni-degree{
+    display: flex;
+    transition: .3s;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+.uni-degree:hover{
+    
+    background:linear-gradient(rgba(255, 255, 255, 0.08 ), rgba(255, 255, 255, 0.07));
+    border: 1px  rgba(255, 255, 255, 0.6);
+    width:100%;
+    max-width:max-content;
+    opacity: 1; 
+}
+.uni-degree:hover .body-content h3, .uni-degree:hover .skills-gain i {
+    color: #B5E3BC ;
+}
+
+/*  end of experience  */
+
+.resume {
+    margin-top: 2.5rem;
+}
+.resume a {
+    text-decoration: none;
+    color: #fff;
+}
+.resume:hover a {
+    border-bottom: 2px solid #B5E3BC;
+}
+
+/*   end of Resume */
+
+
+/* twitter project */
+
+.twitter-clone{
+    display: flex;
+    transition: .3s;
+    opacity: 0.7;
+    margin-top: 5rem;
+    max-width: 40rem;
+}
+.twitter-clone .body-content {
+    max-width: 25rem;
+
+
+}
+
+
+.image-twitter { 
+  
+    width: 10rem;
+    height: 8rem;
+  
+    flex-shrink: 0;
+    max-width: 100%;
+}
+.image-container {
+   width: 100%;
+    height: 100%;
+   
+}
+
+.twitter-clone:hover{
+    
+    background:linear-gradient(rgba(255, 255, 255, 0.08 ), rgba(255, 255, 255, 0.07));
+    border: 1px  rgba(255, 255, 255, 0.6);
+    width:100%;
+    opacity: 1; 
+}
+.twitter-clone:hover .body-content h3, .twitter-clone:hover .skills-gain i {
+    color: #B5E3BC ;
+}
+.skills-gain a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* visual-planner project */
+
+.visual-plan{
+    display: flex;
+    
+    max-width: 40rem;
+    transition: .3s;
+    opacity: 0.7;
+    margin-top: 5rem;
+}
+.visual-plan .body-content {
+    max-width: 25rem;
+
+
+}
+
+.image-planner { 
+   width: 10rem;
+    height: 8rem;
+  
+    flex-shrink: 0;
+    max-width: 100%;
+}
+
+
+.visual-plan:hover{
+    
+    background:linear-gradient(rgba(255, 255, 255, 0.08 ), rgba(255, 255, 255, 0.07));
+    border: 1px  rgba(255, 255, 255, 0.6);
+    width:100%;
+    opacity: 1; 
+}
+.visual-plan:hover .body-content h3, .visual-plan:hover .skills-gain i {
+    color: #B5E3BC ;
+}
+.skills-gain a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+/* end of projects */
+
+.message {
+    color: #fff;
+    margin-top: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    opacity: 0.7;
+}
+.contact {
+   
+    margin-top: 2rem;
+    width: 40rem;
+    opacity:0.7;
+}
+.contact input {
+    width: 20rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: none;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.6));
+    color: #fff;
+    outline: none;
+}
+textarea{
+    width: 20rem;
+    height: 15rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.2), 
+    rgba(255, 255, 255, 0.6));
+    border: none;
+    outline: none;
+    color: #fff;
+    overflow-y: scroll;
+    font-size: small;
+}
+button{
+    background: linear-gradient(rgba(255, 255, 255, 0.2), 
+    rgba(255, 255, 255, 0.6));
+    border-radius: 5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: black;
+    color: #fff;
+    
+}
+
+.contact:hover{
+    background:linear-gradient(rgba(255, 255, 255, 0.08 ), rgba(255, 255, 255, 0.07));
+    border: 1px  rgba(255, 255, 255, 0.6);
+    width:100%;
+    opacity: 1; 
+}
+
+.contact:hover button{
+    color: #B5E3BC;
+}
+
+.contact-footer{
+    color: #fff;
+    font-size: 0.7rem;
+text-align: center;
+margin-top: 2rem;
+}
+
+/*responsive*/
+
+
+@media(max-width: 500px) {
+
+
+    .portfolio-container{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+      max-width: fit-content;
+      
+     
+    }
+  
+    .port-header nav {
+        display: none;
+    }
+    .port-header h1{
+        font-size: 3rem;
+        margin-bottom: 2rem;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .port-header p{
+        display: none;
+
+    }
+    .port-header h3{
+        font-size: 1.2rem;
+     margin: 0;
+       
+    }
+    .header-footer{
+        display: none;
+    }
+    .portfolio-content {
+        height: 100%; 
+        width: 100%;
+       margin-top: 5rem;
+     
+
+         /* Allow content to take full width */
+    }
+    button{
+        font-size: 1rem;
+    }
+   
+       
+    }
+
+    @media(max-width:1000px){
+      
+        .port-header h3{
+            margin-left: 9rem;
+        }
+        .port-header p{
+            margin-left: 8rem;
+        }
+    }
+
+    @media(min-width:630px){
+      
+        .port-header h3{
+            margin-left: 2rem;
+        }
+        .port-header p{
+            margin-left: 2rem;
+        }
+        .port-header li {
+            margin-left:0.7rem;
+        }
+        .header-footer{
+            margin-left:1rem;
+
+        }
+        
+    }
+    @media(min-width:501px){
+      
+        .port-header h3{
+            margin-left: 2rem;
+        }
+        .port-header p{
+            margin-left: 2rem;
+        }
+        .port-header li {
+            margin-left:0.7rem;
+        }
+        .header-footer{
+            margin-left:1rem;
+
+        }
+        
+    }
+
+    
